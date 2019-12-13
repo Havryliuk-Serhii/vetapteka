@@ -1,11 +1,9 @@
 /*--Media Responsive CSS--*/
-
-@media (max-width: 320px) {
+@media (max-width: 480px) {
     body,html{
 	font-size: 18px;
 	line-height: 10px;
 	}
-
 ul{
   margin-right: 20px;
   }
@@ -20,6 +18,232 @@ li a:after {
   content: "";
   width: 0;
   height: 2px;
+  position: absolute;
+  left: 0;
+  bottom: -3px;
+  background: #fff;
+  transition: all 0.5s linear;  
+}
+
+  /*--Header--*/
+
+.header-top{
+	display: none;
+}
+
+.container{ 
+	max-width: 320px;
+	padding-left: 1px;
+	padding-right: 1px;
+	}
+
+.header-top p {
+    display: none;
+}
+	
+.header-menu{
+	padding: 1px;
+    position:relative;
+}
+ 
+ .navbar-brand{
+	padding-left: 12%;
+    margin-top: 155px;
+ }
+ 
+    /*--Menu--*/
+    
+.hidden-menu {
+  width: 320px;
+  right: -320px;
+    background-color: rgba(35, 67, 142, 1);
+ }
+    .hidden-menu-ticker:checked ~ .btn-menu {
+  right: 280px;
+}
+    
+/*-- Home Page--*/
+
+.hero{
+	height: 240px;
+    width: 100%;
+    margin-top: -120px;
+}
+.welcome{
+    display: none;
+}
+.logo-image{
+	width: 30%;
+	padding-left: 35%;
+	padding-top: 15%;
+    top:15%; 
+}
+/*--About us--*/
+    
+.about-us{
+	padding: 10px;
+}
+.feature-header {
+    margin: 10px 0px;
+}
+
+.feature-title {
+    font-size: 20px;
+    line-height: 20px;
+}
+
+.post-about-us{
+	float: left;
+	width: 300px;
+	margin-left: 5px;
+    margin-bottom: 25px;
+}
+.post-about-us p{
+    font-size: 18px; 
+    line-height: 1.25;
+}
+    
+.img-about-us{
+	float: right;
+    width: 300px;
+	margin-bottom: 25px; 
+	margin-right: 1px;
+}
+  
+.img-about-us img{
+    width: 300px;
+}
+    
+/*--Offers--*/
+    
+.offers{
+	display: none;
+}
+    
+/*--Blog--*/
+
+.post-articles{
+	font-size: 14px;
+}
+    
+.post-text{
+    float: right;
+    width: 300px;
+}
+
+.post-text p{
+    font-size: 16px; 
+    line-height: 1.25;
+}    
+    
+.post-articles h3{
+	font-size: 18px; 
+	margin-bottom:15px;
+	text-align:center;
+}
+
+
+.post-head{
+	overflow:hidden;
+	font-size: 12px; 
+	margin-bottom:15px;
+}
+    
+.post-articles p{
+	margin-bottom:15px;
+	padding:15px;
+}
+
+.post-img{
+	float:left; 
+	padding:5px;
+	margin-left:5px;
+	margin-right: 5px;
+	width: 300px;
+    height: auto;
+}
+.post-comments{
+    padding-right: 10px;    
+}
+    
+.post-img img{
+    width: 280px;
+    margin-left: 10px;
+}    
+    
+/*--Contact--*/
+.contact {
+    height: 320px;
+}
+
+.foto-image{
+	display: none;
+}
+    
+.contact-info{
+	float: center;
+	margin: 10px;
+    background-color: rgba(255, 255, 255, 0.75);
+    width: 300px;
+    height:240px;
+    
+}
+.contact-info-title{
+	text-align: center;
+	font-size: 14px;
+	font-weight: bold;
+	padding: 5px;
+	
+}
+
+.contact-info-description{
+	text-align: center;
+	font-size: 16px;
+	font-weight: bold;
+	padding: 5px;
+	line-height: 1.25;
+}
+
+.our-location iframe{
+	height: 150px;
+}
+
+/*--Footer--*/
+
+.footer{
+	height:75px;
+}
+
+.social-icon img{
+	width: 30px;
+	margin-left: 38px;
+	padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.copyright{
+	font-size: 12px;
+	top: 45px;
+    padding: 5px;
+}
+    
+}*/
+@media (max-width: 320px) {
+    body,html{
+		font-size: 18px;
+		line-height: 10px;
+	}
+	ul{
+  		margin-right: 20px;
+  	}
+	li {
+ 		margin-left: 70px;
+  		padding: 12px;
+	}
+	li a:after {
+  	content: "";
+  	width: 0;
+  	height: 2px;
   position: absolute;
   left: 0;
   bottom: -3px;
@@ -462,233 +686,3 @@ li a:after {
      
 }
 
-@media (max-width: 480px) {
-    body,html{
-	font-size: 18px;
-	line-height: 10px;
-	}
-
-ul{
-  margin-right: 20px;
-  }
-
-
-li {
-  margin-left: 70px;
-  padding: 12px;
- }
-
-li a:after {
-  content: "";
-  width: 0;
-  height: 2px;
-  position: absolute;
-  left: 0;
-  bottom: -3px;
-  background: #fff;
-  transition: all 0.5s linear;  
-}
-
-  /*--Header--*/
-
-.header-top{
-	display: none;
-}
-
-.container{ 
-	max-width: 320px;
-	padding-left: 1px;
-	padding-right: 1px;
-	}
-
-.header-top p {
-    display: none;
-}
-	
-.header-menu{
-	padding: 1px;
-    position:relative;
-}
- 
- .navbar-brand{
-	padding-left: 12%;
-    margin-top: 155px;
- }
- 
-    /*--Menu--*/
-    
-.hidden-menu {
-  width: 320px;
-  right: -320px;
-    background-color: rgba(35, 67, 142, 1);
- }
-    .hidden-menu-ticker:checked ~ .btn-menu {
-  right: 280px;
-}
-    
-/*-- Home Page--*/
-
-.hero{
-	height: 240px;
-    width: 100%;
-    margin-top: -120px;
-}
-.welcome{
-    display: none;
-}
-.logo-image{
-	width: 30%;
-	padding-left: 35%;
-	padding-top: 15%;
-    top:15%; 
-}
-/*--About us--*/
-    
-.about-us{
-	padding: 10px;
-}
-.feature-header {
-    margin: 10px 0px;
-}
-
-.feature-title {
-    font-size: 20px;
-    line-height: 20px;
-}
-
-.post-about-us{
-	float: left;
-	width: 300px;
-	margin-left: 5px;
-    margin-bottom: 25px;
-}
-.post-about-us p{
-    font-size: 18px; 
-    line-height: 1.25;
-}
-    
-.img-about-us{
-	float: right;
-    width: 300px;
-	margin-bottom: 25px; 
-	margin-right: 1px;
-}
-  
-.img-about-us img{
-    width: 300px;
-}
-    
-/*--Offers--*/
-    
-.offers{
-	display: none;
-}
-    
-/*--Blog--*/
-
-.post-articles{
-	font-size: 14px;
-}
-    
-.post-text{
-    float: right;
-    width: 300px;
-}
-
-.post-text p{
-    font-size: 16px; 
-    line-height: 1.25;
-}    
-    
-.post-articles h3{
-	font-size: 18px; 
-	margin-bottom:15px;
-	text-align:center;
-}
-
-
-.post-head{
-	overflow:hidden;
-	font-size: 12px; 
-	margin-bottom:15px;
-}
-    
-.post-articles p{
-	margin-bottom:15px;
-	padding:15px;
-}
-
-.post-img{
-	float:left; 
-	padding:5px;
-	margin-left:5px;
-	margin-right: 5px;
-	width: 300px;
-    height: auto;
-}
-.post-comments{
-    padding-right: 10px;    
-}
-    
-.post-img img{
-    width: 280px;
-    margin-left: 10px;
-}    
-    
-/*--Contact--*/
-.contact {
-    height: 320px;
-}
-
-.foto-image{
-	display: none;
-}
-    
-.contact-info{
-	float: center;
-	margin: 10px;
-    background-color: rgba(255, 255, 255, 0.75);
-    width: 300px;
-    height:240px;
-    
-}
-.contact-info-title{
-	text-align: center;
-	font-size: 14px;
-	font-weight: bold;
-	padding: 5px;
-	
-}
-
-.contact-info-description{
-	text-align: center;
-	font-size: 16px;
-	font-weight: bold;
-	padding: 5px;
-	line-height: 1.25;
-}
-
-.our-location iframe{
-	height: 150px;
-}
-
-/*--Footer--*/
-
-.footer{
-	height:75px;
-}
-
-.social-icon img{
-	width: 30px;
-	margin-left: 38px;
-	padding-top: 10px;
-    padding-bottom: 10px;
-}
-
-.copyright{
-	font-size: 12px;
-	top: 45px;
-    padding: 5px;
-}
-    
-}*/

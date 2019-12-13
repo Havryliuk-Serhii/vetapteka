@@ -401,13 +401,18 @@ input#s:focus + .close span.back{
   
 .post-about-us{
 	float: left;
-	width: 400px;	
+	width: 50%;
 }
 
 .img-about-us{
 	float: right;
 	margin-bottom: 25px; 
-	margin-right: 50px;
+	width: 50%;
+	height: auto;
+}
+
+.img-about-us img{
+	width: 100%;
 }
 
 /*--Offers--*/

@@ -691,7 +691,9 @@ overflow: hidden;
    margin-bottom: 15px;
     margin-top: 8px;
 }
-
+.one-half{
+  width: 48%;
+}
 
 /*--Footer--*/
 

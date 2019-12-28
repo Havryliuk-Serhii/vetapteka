@@ -1,12 +1,3 @@
-/*   
-Theme Name: Vetapteka
-Theme URI: домашняя-страница-темы
-Description: Responsive Wordpress Theme with blog
-Author: Sergey G.
-Author URI: http://nuvowebs.com
-Version: 1.1
-*/
-
 @import 'css/normalize.css';
 
 body,html{
@@ -647,6 +638,7 @@ a.btn:active {
 	width: 400px;
 	height:300px;
 }*/
+
 
 /*--Contact--*/
 

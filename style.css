@@ -571,6 +571,7 @@ a.btn:active {
 
 .post-head{
   padding: 10px 5px;
+  color: #000;
 }
 .post-date{
   font-size: 12px;
@@ -583,17 +584,38 @@ a.btn:active {
 
 .articles h3 a{
   font-size: 18px;
-  color: #000;
+  color: #23438e;
   letter-spacing: 1px;
 }
 .articles p{
   font-size: 16px;
   padding:5px;
 }
-
+.post-img{
+	background:#f3f3f3;
+	padding:10px;
+	width:100% ;
+	height:auto;
+}
 .post-img img{
   width: 100%;
   height: auto;    
+}
+a.read-more{
+  font-size: 14px;
+  background-color: transparent;
+  padding: 5px 10px;
+  border: none;
+  color: #23438e;
+}
+a.read-more:hover,
+a.read-more:active {
+  background-color: #23438e;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 14px;
 }
 /* Blog page */
 .one-half{
@@ -607,63 +629,7 @@ a.btn:active {
   width: 100px;
   height: auto;
 }
-/*.post-articles{
-	overflow:hidden;
-	font-size:20px;
-	color:#000000; 
-	border-bottom: 2px solid #23438e;
-	padding-bottom:25px;
-	margin-bottom:25px;
-}
 
-.post-text{
-    float: left;
-    width: 450px;
-}
-
-.post-articles a{
-	color:#23438e;
-}
-
-.post-articles a:hover{
-	text-decoration: underline; 
-}
-
-.post-articles h3{
-	font-size: 30px; 
-	margin-bottom:15px;
-	text-align:center;
-}
-
-.post-head{
-	overflow:hidden;
-	font-size: 16px; 
-	margin-bottom:15px;
-	
-}
-
-.post-date{
-	float:left;
-}
-
-.post-date span{
-	color:#23438e;
-}
-
-.post-comments{
-	float:right;
-}
-
-.post-articles p{
-	margin-bottom:15px;
-}*/
-
-.post-img{
-	background:#f3f3f3;
-	padding:10px;
-	width:100% ;
-	height:auto;
-}
 
 /*--Contact--*/
 

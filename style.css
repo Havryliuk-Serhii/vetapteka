@@ -617,19 +617,32 @@ a.read-more:active {
   color: #fff;
   font-size: 14px;
 }
-/* Blog page */
-.one-half{
-  width: 48%;
-}
-.entry-img{
-  width: 100px;
-  height: auto;
-}
-.entry-img img{
-  width: 100px;
-  height: auto;
+/* Pagination */
+.pagination {
+  display: inline-block;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  float: left;
+  margin-left: 40%;
+  margin-right: 40%;
 }
 
+.pagination a {
+  color: #23438e;
+   padding: 8px 16px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+.pagination a:hover{
+  color: #23438e;
+  border: 1px solid #23438e;
+  padding: 7px 15px;
+}
+.pagination a.active {
+  background-color:#23438e;
+  color: white;
+  border-radius: 5px;
+}
 
 /*--Contact--*/
 

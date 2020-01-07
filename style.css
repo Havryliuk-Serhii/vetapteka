@@ -624,7 +624,6 @@ a.read-more:active {
   margin-bottom: 15px;
   float: left;
   margin-left: 40%;
-  margin-right: 40%;
 }
 
 .pagination a {
@@ -755,3 +754,4 @@ a.read-more:active {
   border-top: 2px solid rgba(255, 255, 255, 0.9);
 }
 
+@import 'css/media.css';

@@ -647,8 +647,34 @@ a.read-more:active {
 
 /* Single page */
 
-
-
+.single-articles{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+.single-post-content h3{
+  text-align: center;
+  margin-top: 5%;
+}
+.single-post-head{
+  margin-top: 3%;
+}
+.single-img{
+  width: 48%;
+  margin: 1%;
+}
+.single-img img{
+  width: 100%;
+  height: auto;    
+}
+.single-content {
+float: right;
+width: 100%;
+}
+/*--Comments--*/
+.comments-title{
+  text-align: center;
+}
 /*--Contact--*/
 
 .contact {

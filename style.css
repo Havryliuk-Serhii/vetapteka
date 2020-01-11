@@ -555,30 +555,33 @@ a.btn:active {
   #23438e 3px 3px 0; 
 }
 
-/*--Blog--*/
+/*--Blog section--*/
 
 .blog{
   width: 100%;
-  height: 800px;
+  height: 900px;
 }
 
 .articles{
-  width: 30%;
+  width: 45%;
   height: 100%;
   float: left;
-  margin: 0 1.6%;
+  margin: 1%;
+  border: 1px solid #23438e;
+  padding-top: 3%;
+  padding-left: 2.5%;
+  padding-bottom: 2%;
 }
 
 .post-head{
   padding: 10px 5px;
-  color: #000;
+  font-size: 14px;
 }
+ 
 .post-date{
-  font-size: 12px;
   float: left;
 }
 .post-comments{
-  font-size: 12px;
   float: right;
 }
 
@@ -587,6 +590,7 @@ a.btn:active {
   color: #23438e;
   letter-spacing: 1px;
 }
+
 .articles p{
   font-size: 16px;
   padding:5px;
@@ -594,7 +598,7 @@ a.btn:active {
 .post-img{
 	background:#f3f3f3;
 	padding:10px;
-	width:100% ;
+	width:90% ;
 	height:auto;
 }
 .post-img img{
@@ -617,7 +621,20 @@ a.read-more:active {
   color: #fff;
   font-size: 14px;
 }
+/*--Blog page--*/
 
+.single-articles{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin: 3% 0;
+  border: 1px solid #23438e;
+  padding: 5px;
+}
+
+.post-content{
+  padding: 10px;
+}
 /* Pagination */
 
 .pagination {
@@ -647,29 +664,23 @@ a.read-more:active {
 
 /* Single page */
 
-.single-articles{
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-}
+
 .single-post-content h3{
   text-align: center;
   margin-top: 5%;
 }
 .single-post-head{
-  margin-top: 3%;
+  margin: 2%;
 }
 .single-img{
-  width: 48%;
-  margin: 1%;
+ 
 }
 .single-img img{
   width: 100%;
   height: auto;    
 }
 .single-content {
-float: right;
-width: 100%;
+ 
 }
 /*--Comments--*/
 .comments-title{

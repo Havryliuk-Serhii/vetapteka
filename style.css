@@ -691,7 +691,7 @@ a.read-more:active {
 .single-content p{
   margin-left: 2%;
 }
-blockquote p{
+blockquote>p{
 background-color: #23438e;
 border-radius: 5px;
 color: #fff;
@@ -707,6 +707,96 @@ margin: 3%;
 .comments-title{
   text-align: center;
 }
+.media-list{
+  border: 1px solid #23438e; 
+  padding: 10px;
+  border-radius: 5px;
+}
+.comments h4 {
+  color: #23438e;
+}
+
+.media-heading span {
+  margin-left: 40px;
+  font-size: 12px;
+  color:#23438e;
+}
+
+.media-body a {
+  padding: 10px 10px; 
+  color: #23438e;  
+}
+
+.comments .media-body a:hover,
+.comments .media-body a:active{
+    color: #fff;
+    background: #23438e;
+    border-radius: 5px;
+}
+
+.media-list li{
+    margin-bottom: 30px;
+}
+
+.media-img img {
+    width: 95px;
+    height: 95px;
+    border-radius: 50%;
+    border: 5px solid #f1f1f1;     
+}
+
+
+
+/* Comments form */
+
+.blog-form .form-control {
+  margin-bottom: 15px;
+  border: 1px solid 7ebc7d;
+  -webkit-box-shadow: none!important;
+  box-shadow: none!important;
+  border-radius: 5px;
+}
+.blog-form input {
+  height: 45px;
+}
+
+.blog-form .form-control:hover {
+  border: 1px solid #23438e;
+  background-color: #23438e;
+}
+
+.left_contact input[type=text]:hover, textarea:hover {
+  border: 1px #23438e;
+  background-color:#23438e;
+}
+/* Button submit */
+.btn-main {
+  padding: 10px 25px;
+  border-radius: 5px;
+  border: medium none;
+  vertical-align: middle;
+  cursor: pointer;
+  border: 1px solid#23438e;
+  white-space: nowrap;
+  font-size: 16px;
+  line-height: 1.42857;
+  background: #fff;
+  color: #23438e
+  font-weight: 700;
+  margin-top: 30px;
+  text-transform: capitalize!important;
+  -webkit-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+  margin-bottom: 30px;
+}
+
+.btn-main:hover,
+.btn-main:active{
+  background-color: #23438e;
+  color: #fff;
+}
+
 /*--Contact--*/
 
 .contact {

@@ -811,4 +811,4 @@ cite{
   border-top: 2px solid rgba(255, 255, 255, 0.9);
 }
 
-@import 'css/media.css';
+@import "/css/media.css" screen;

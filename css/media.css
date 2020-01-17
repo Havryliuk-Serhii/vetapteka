@@ -7,13 +7,19 @@
         margin-right: 10px;
         margin-left: 10px;
     }
-
+    .testimonial-text {
+        float: left;
+        width: 620px;
+    }
+    
 }
 @media (max-width:958px){
     .container{
         max-width: 800px;
     }
-
+    .testimonial-text {        
+        width: 500px;
+    }
 }
 @media (max-width: 800px){
     .container{
@@ -22,6 +28,9 @@
     .info {
         margin-right: 5px;
         margin-left: 5px;
+    }
+    .testimonial-text {        
+        width: 470px;
     }
 }
 @media (max-width: 768px){
@@ -34,32 +43,79 @@
     .hero{
         margin-top: -120px;
     }
-    .header-menu {
-        position: static;
-        top: 0;
+    .feature-title{
+        font-size: 32px;
+    }
+    .testimonial-text {        
+        width: 450px;
     }
 }
 @media (max-width: 720px) {
     .container{
-        max-width: 600px;
+        max-width: 640px;
     }
     .welcome{
         line-height: 1.5;
     }
+    .testimonial-author{
+        text-align: justify;
+    }
+    .testimonial-text {        
+        width: 360px;
+    }
 }
 @media (max-width: 640px) {
-
-
+    .container{
+        max-width: 600px;
+    }
+    .testimonial-foto{
+        width: 120px;
+        height: 120px;
+    }
+    .testimonial-text {        
+        width: 320px;
+    }
 }
 @media (max-width: 600px){
-
-
+    .container{
+        max-width: 540px;
+    }
+    .feature-title{
+        font-size: 24px;
+    }
+    .testimonial-foto{
+        width: 100px;
+        height: 100px;
+    }
+    .testimonial-text {        
+        width: 300px;
+        font-size: 16px;
+    }
 }
 @media (max-width: 540px) {
+    .container{
+        max-width: 500px;
+    }
+    .testimonials-inner{
+        width: 300px;
+        margin: 0;
+        padding: 10px;
+    }
+    .testimonial-foto{
+        display: none;
+    }
+    .testimonial-text {        
+        width: 250px;
+        font-size: 16px;
 
+    }
 
 }
 @media (max-width: 320px){
-
-
+    .container{
+        max-width: 300px;
+    }
+    .testimonials{
+        display: none;
+    }
 }

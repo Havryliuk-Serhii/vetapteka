@@ -18,6 +18,12 @@
         margin-right: 0;
         width: 49%;
     }
+    .info-bottom{
+        display: inline-block;
+    }
+    .item-bottom{
+        float: right;       
+    }
 }
 @media (max-width:958px){
     .container{

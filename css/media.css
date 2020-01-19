@@ -17,14 +17,7 @@
     .contact-area{
         margin-right: 0;
         width: 49%;
-    }
-    .info-bottom{
-        
-    }
-    .item-bottom{
-            
-    }
-    
+    }   
 }
 @media (max-width:958px){
     .container{
@@ -37,19 +30,9 @@
         width: 100%;
     }
     .info-bottom {
-        margin: 0;
-        
-        
+        margin: 0;       
     }
-    .vk, .ok, .fb, .gp{
-        width: 50px; 
-        height: 50px; 
-        float: left;
-        margin-left: 110px;
-        margin-top: 15px;
-      margin-bottom: 10px;
-    }
-}
+    
 @media (max-width: 800px){
     .container{
         max-width: 760px;
@@ -60,6 +43,9 @@
     }
     .testimonial-text {        
         width: 470px;
+    }
+    .item-bottom{
+        font-size: 14px;
     }
 }
 @media (max-width: 768px){
@@ -92,6 +78,9 @@
     .testimonial-text {        
         width: 360px;
     }
+    .item-bottom{
+        font-size: 12px;
+    }
 }
 @media (max-width: 640px) {
     .container{
@@ -103,6 +92,9 @@
     }
     .testimonial-text {        
         width: 320px;
+    }
+    .item-bottom{
+        font-size: 9px;
     }
 }
 @media (max-width: 600px){
@@ -119,6 +111,18 @@
     .testimonial-text {        
         width: 300px;
         font-size: 16px;
+    }
+    /*.foto-image{
+        height: 400px; 
+    }*/
+    .foto{
+        height: 400px; 
+    }
+    .contact-area{
+        height: 400px;
+    }
+    .contact-info{
+        display: none;
     }
 }
 @media (max-width: 540px) {

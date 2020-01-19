@@ -104,6 +104,38 @@
     .feature-title{
         font-size: 24px;
     }
+    .hero{
+        height: 450px;
+    }
+    .header-menu{
+        height: 40px;
+    }
+    .navbar-brand img{
+        height: 40px;
+    }
+    .logo-image{
+        width: 30%;
+    }
+    .welcome{
+        font-size: 50px;
+        top:55%;
+    }
+    .about-us{
+        padding: 15px;
+        height: 350px;
+    }
+    .post-about-us p{
+        font-size: 16px;
+    }
+    .offers{
+        height: 750px;   
+    }
+    .blog{
+        height: 800px;
+    }
+    .contact {
+        height: 550px;
+    }
     .testimonial-foto{
         width: 100px;
         height: 100px;

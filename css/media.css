@@ -176,16 +176,36 @@
     .container{
         max-width: 500px;
     }
+    .about-us{
+        padding: 0;
+    }
+    .post-about-us p{
+        font-size: 14px;
+        line-height: 1.5;   
+    }
     .offers{
         height: 350px;
     }
     .testimonials{
         display: none;
     }
-    .articles{
-        width: 95%;
-        height: 100%;
+    .blog{
+        display: none;
     }
+    .foto-image{
+        display: none;
+    }
+    .contact-area{
+        width: 100%;
+    }
+    .vk, .ok, .fb, .gp{
+        width: 25px; 
+        height: 25px;
+        background-size: 25px;       
+    }
+    .copyright{
+        font-size: 16px;
+    }    
 }
 @media (max-width: 320px){
     .container{
@@ -197,5 +217,22 @@
     .welcome{
         font-size: 36px;
     }
-
+    .feature-header{
+        margin: 10px 0px;   
+    }
+    .feature-header-lite{
+        margin: 10px 0px;   
+    }
+    .feature-title{
+        font-size: 18px;
+    }
+    .offers{
+        height: 200px;
+    }
+    .footer{
+        height: 90px;
+    }
+    .copyright{
+        font-size: 12px;
+    }  
 }

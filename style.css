@@ -806,8 +806,7 @@ cite{
 	background-color: #23438e ;
 	width: 100%;
 	height:120px;
-  overflow: hidden;
-  
+  overflow: hidden;  
 }
 .social-icon{
   display: flex;

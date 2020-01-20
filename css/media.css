@@ -86,6 +86,9 @@
     .item-bottom{
         font-size: 12px;
     }
+    .form-textarea textarea{
+        width: 98%;
+    }
 }
 @media (max-width: 720px) {
     .container{
@@ -102,6 +105,12 @@
     }
     .item-bottom{
         font-size: 12px;
+    }
+    .media-body{
+        font-size: 18px;
+    }
+    .form-control{
+        font-size: 16px;
     }
 }
 @media (max-width: 640px) {
@@ -234,6 +243,29 @@
     .contact-area{
         width: 100%;
     }
+    .single-post-head{
+        font-size: 16px;
+    }
+    .single-img{
+        width: 98%;        
+    }
+    blockquote{
+        margin: 1%;
+    }
+    blockquote>p{
+        margin: 1%;
+      }
+    .form-field{
+        width: 98%;
+    }
+    .media-body a{
+        margin-left: 0;
+    }
+    .btn-main{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left: 5%;
+    }
     .vk, .ok, .fb, .gp{
         width: 25px; 
         height: 25px;
@@ -268,6 +300,13 @@
     .pagination{
         font-size: 14px;
         margin-left: 12%;
+    }
+    .single-post-head{
+        display: flex;
+        flex-direction: column;
+    }
+    .single-content p{
+        font-size: 18px;
     }
     .footer{
         height: 90px;

@@ -37,9 +37,15 @@
     .container{
         max-width: 760px;
     }
+    .hero{
+        height: 700px;
+    }
     .info {
         margin-right: 5px;
         margin-left: 5px;
+    }
+    .about-us{
+        height: 450px;
     }
     .testimonial-text {        
         width: 470px;
@@ -64,6 +70,12 @@
     .testimonial-text {        
         width: 450px;
     }
+    .info-bottom{
+        margin-bottom: 12px;
+    }
+    .item-bottom{
+        font-size: 12px;
+    }
 }
 @media (max-width: 720px) {
     .container{
@@ -86,12 +98,18 @@
     .container{
         max-width: 600px;
     }
+    .offers{
+        height: 800px;
+    }
     .testimonial-foto{
         width: 120px;
         height: 120px;
     }
     .testimonial-text {        
         width: 320px;
+    }
+    .contact{
+        height: 700px;
     }
     .item-bottom{
         font-size: 9px;
@@ -114,7 +132,7 @@
         height: 40px;
     }
     .logo-image{
-        width: 30%;
+        width: 35%;
     }
     .welcome{
         font-size: 50px;
@@ -144,9 +162,6 @@
         width: 300px;
         font-size: 16px;
     }
-    /*.foto-image{
-        height: 400px; 
-    }*/
     .foto{
         height: 400px; 
     }
@@ -161,26 +176,26 @@
     .container{
         max-width: 500px;
     }
-    .testimonials-inner{
-        width: 300px;
-        margin: 0;
-        padding: 10px;
-    }
-    .testimonial-foto{
-        display: none;
-    }
-    .testimonial-text {        
-        width: 250px;
-        font-size: 16px;
-
-    }
-
-}
-@media (max-width: 320px){
-    .container{
-        max-width: 300px;
+    .offers{
+        height: 350px;
     }
     .testimonials{
         display: none;
     }
+    .articles{
+        width: 95%;
+        height: 100%;
+    }
+}
+@media (max-width: 320px){
+    .container{
+        max-width: 240px;
+    }
+    .hero{
+        height: 320px;
+    }
+    .welcome{
+        font-size: 36px;
+    }
+
 }

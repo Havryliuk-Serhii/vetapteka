@@ -523,20 +523,23 @@ a.btn:active {
   width: 100%;
   height: auto;    
 }
-a.read-more{
-  font-size: 14px;
-  background-color: transparent;
-  padding: 5px 10px;
-  border: none;
+.post-content h3 a:visited{
   color: #23438e;
 }
-a.read-more:hover,
-a.read-more:active {
-  background-color: #23438e;
+.read-more{
+  font-size: 14px;
   padding: 5px 10px;
-  border: none;
+  
   border-radius: 5px;
-  color: #fff;
+  color: #23438e;
+}
+.read-more:hover,
+.read-more:active,
+.read-more:visited {
+  background-color: transparent;
+  padding: 4px 9px;  
+  border-radius: 5px;
+  border: 1px solid #23438e;
   font-size: 14px;
 }
 /*--Blog page--*/
